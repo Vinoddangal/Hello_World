@@ -4,6 +4,7 @@ var totalQuestions = questions.length;
 
 var container = document.getElementById('quizContainer');
 var questionEl = document.getElementById('question');
+var option = document.getElementById('option');
 var opt1 = document.getElementById('opt1');
 var opt2 = document.getElementById('opt2');
 var opt3 = document.getElementById('opt3');
@@ -31,6 +32,10 @@ function loadNextQuestion() {
 	var answer = selectedOption.value;
 	if (questions[currentQuestion].answer == answer) {
 		score += 10;
+	}
+	else{
+		alert('Wrong Answer Try again!');
+		return;
 	}
 	selectedOption.checked = false;
 	currentQuestion++;

@@ -1,26 +1,26 @@
 var questions = [{
-	"question": "What is the capital city of Nepal ? ?",
+	"question": "What is the capital city of Nepal ?",
 	"option1": "Lalitpur",
 	"option2": "Bhaktapur",
 	"option3": "Kathmandu",
 	"option4": "Pokhara",
 	"answer": "3"
 }, {
-	"question": "The first mechsnicsl computer design by charles babbage was called ?",
+	"question": "The first mechsnical computer design by charles babbage was called ?",
 	"option1": "Abacus",
 	"option2": "Analytical Engine",
 	"option3": "Calculator",
 	"option4": "Processor",
 	"answer": "2"
 }, {
-	"question": "Whic one is the first search engine in internet.",
+	"question": "Which one is the first search engine in internet.",
 	"option1": "Google",
 	"option2": "Archie",
 	"option3": "Altavista",
 	"option4": "Bing",
 	"answer": "2"
 }, {
-	"question": "Whic of the following is not a Database management software.",
+	"question": "Which of the following is not a Database management software.",
 	"option1": "MySQL",
 	"option2": "Oracle",
 	"option3": "Sybase",
