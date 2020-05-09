@@ -34,8 +34,7 @@ function loadNextQuestion() {
 		score += 10;
 	}
 	else{
-		alert('Wrong Answer Try again!');
-		return;
+		alert('Wrong Answer!!!');
 	}
 	selectedOption.checked = false;
 	currentQuestion++;

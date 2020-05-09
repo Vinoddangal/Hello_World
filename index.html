@@ -1,22 +1,12 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Quiz World</title>
-	<link rel="stylesheet" type="text/css" href="quiz.css">
-</head>
-<body>
-		<div id="quizContainer" class="container">
-			<div class="title">Quiz Questions</div>
-			<div id="question" class="question"></div>
-			<label id="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
-			<label id="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
-			<label id="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
-			<label id="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
-			<button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
-		</div>
-		<div id="result" class="container result" style="display: none;">
-		</div>
-		<script src="question.js"></script>
-		<script src="quiz.js"></script>
-</body>
+    <head>
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="quiz.css">
+    </head>
+    <body>
+        <div class="img">
+            <h1>Welcome to Quiz Game</h1>
+            <button type="submit" class="button" onclick="window.location.href ='game.html'">Start Game</button>
+        </div>
+    </body>
 </html>
