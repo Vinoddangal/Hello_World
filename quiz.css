@@ -25,6 +25,20 @@ h1{
   font-weight: bolder;
   font-size: 44px;
 }
+h2{
+  color: whitesmoke;
+  margin-bottom: 250px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 32px;
+}
+h3{
+  color: whitesmoke;
+  margin-bottom: 300px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 32px;
+}
 .button {
   position: absolute;
   outline: none;
